@@ -1,0 +1,55 @@
+@import 'fonts.css';
+
+:root {
+	--red: #820101;
+	--blue:  #7FC7FF;
+	--gray: #4f4f4f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+input {
+	outline: none;
+}
+
+.form {
+	padding: 15px;
+	max-width: 300px;
+	background: #c1c1c1;
+}
+
+.form-h1 {
+	text-align: center;
+}
+
+.div {
+	display: flex;
+	flex-direction: column;
+}
+
+.div label {
+	margin: 10px 0;
+}
+
+.msg {
+	color: red;
+}
